@@ -2,3 +2,13 @@
 # References
 * Deep Learning from the Scratch
 [[https://github.com/WegraLee/deep-learning-from-scratch]]
+
+
+$ docker build -t <Image Name> .
+
+$ docker run --rm -it <Image Name> /bin/bash
+
+$ docker run -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" --name <Container Name: eg. data-science> <Image Name: eg. data-science>:<Image Tag: eg. latest>
+
+# Start notebook
+http://localhost:8888/?token=9622933131dc3f815f6b3df22db4ea48f819571311fd7de4
