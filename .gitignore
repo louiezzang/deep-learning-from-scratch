@@ -1,0 +1,19 @@
+# Commons
+/bin/
+/build/
+/out/
+
+# Java class files
+*.class
+
+# Eclipse project files
+.classpath
+.project
+.settings
+
+# IntelliJ project files
+.idea/
+*.iml
+
+# Gradle
+.gradle
