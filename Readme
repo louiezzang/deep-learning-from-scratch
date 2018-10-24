@@ -11,4 +11,4 @@ $ docker run --rm -it <Image Name> /bin/bash
 $ docker run -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" --name <Container Name: eg. data-science> <Image Name: eg. data-science>:<Image Tag: eg. latest>
 
 # Start notebook
-http://localhost:8888/?token=9622933131dc3f815f6b3df22db4ea48f819571311fd7de4
+http://localhost:8888/?token=74ec47a5ed7893b9b16da2db4e50776d5db50502670136bf
